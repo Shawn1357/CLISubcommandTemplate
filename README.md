@@ -27,7 +27,7 @@ After cloning the repository locally, be sure to perform the foillowing one-time
   1. From a command shell, navigate into the .githooks directory within the git repository.
   2. Execute the command: __gitHooksGenerator__
   
-## Bash Shell ###
+### Bash Shell ###
   1. From a bash shell, navigate into the .githooks directory within the cloned git repository.
   2. Execute the command: __./gitHooksGenerator.sh__
 
