@@ -23,6 +23,10 @@ Post Clone Steps:
 
 After cloning the repository locally, be sure to perform the foillowing one-time only steps to set up the standard git-hooks:
 
+### Common ###
+  1. git config [--global] user.email "youremail@yourdomain.com"
+  2. git config [--global] user.name  "Your Name"
+
 ### Windows ###
   1. From a command shell, navigate into the .githooks directory within the git repository.
   2. Execute the command: __gitHooksGenerator__
