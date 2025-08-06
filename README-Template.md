@@ -24,7 +24,7 @@ Generate New Repository:
   7. Open a Command shell, Power shell or Git Bash shell and navigate to this local directory.
   8. Type in the command<p>
   
-    git clone https://github.com/Shawn1357/TemplateGitRepository.git
+    git clone https://github.com/Shawn1357/TemplateGitRepository.git .
      
   9. Within the repository, create a remote named *template* so that it can easily be pulled from.
 

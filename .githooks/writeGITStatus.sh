@@ -6,7 +6,17 @@
 #.
 #
 
-GIT_TZ=America/Toronto
+#
+# NOTE:
+# For certain environments (such as Git Bash), setting the GIT_TZ
+# environment variable like this has no effect even though
+# it is correctly done because the environment does not have the
+# timezone database installed.  If that is the case, then the
+# reported time will default to UTC.
+#
+#
+
+GIT_TZ=America/Vancouver
 
 
 REPO_ROOT=$(git rev-parse --show-toplevel)
